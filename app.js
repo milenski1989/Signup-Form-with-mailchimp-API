@@ -42,7 +42,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "dda6961e045d50737ac84f6c8c661b0f-us1",
+    auth: "20c05619725f08461910e32ba28d7fa6-us1",
   };
 
   //sending request to mailchimp's API
@@ -76,7 +76,7 @@ app.listen(process.env.PORT || 3000, function () {
   console.log("the server is running on port 3000");
 });
 
-// Mailchimp API Key dda6961e045d50737ac84f6c8c661b0f-us1
+// Mailchimp API Key 20c05619725f08461910e32ba28d7fa6-us1
 
 //List ID
 //730dedd825
